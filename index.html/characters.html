@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Characters - 疯狂动物城</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/jquery.min.js"></script>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }></script>
+	<meta name="keywords" content="疯狂动物城 人物 尼克 朱迪 盖瑞">
+	<link
+		href='http://fonts.useso.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
+		rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<!--header start here-->
+	<div class="header">
+		<div class="container">
+			<div class="header-main">
+				<div class="logo">
+					<a href="index.html"> <img src="images/logo.png" alt="疯狂动物城logo" /> </a>
+				</div>
+				<div class="top-nav">
+					<span class="menu"> <img src="images/icon.png" alt="菜单" /></span>
+					<nav class="cl-effect-1">
+						<ul class="res">
+							<li><a href="index.html"> <span data-hover="Home">首页</span></a></li>
+							<li><a href="characters.html"> <span data-hover="Characters">人物简介</span></a></li>
+							<li><a href="works.html"> <span data-hover="Works">作品场景</span></a></li>
+							<li><a href="contact.html"> <span data-hover="Contact">联系/价格</span></a></li>
+						</ul>
+					</nav>
+					<script>
+						$("span.menu").click(function () {
+							$("ul.res").slideToggle(300);
+						});
+					</script>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- 第1屏：人物页标题 -->
+	<div class="banner" style="height: 100vh; background-image: url('images/m2.png'); /* 图片路径，替换为你实际的文件名 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;">
+		<div class="container">
+			<div class="banner-main" style="padding-top: 30vh;">
+				<div class="bann-right" style="text-align: center;">
+					<h1 style="font-size: 5rem;">核心人物</h1>
+					<h2 style="font-size: 2rem; color: #666; margin-top: 20px;">每一个角色，都是一面镜子</h2>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- 第2屏：尼克详情 -->
+	<div class="services" style="height: 100vh; padding-top: 5vh;">
+		<div class="container">
+			<div class="services-main">
+				<div class="ser-top">
+					<h3 style="font-size: 3rem; margin-bottom: 30px;">尼克 · 王尔德</h3>
+					<h4 style="font-size: 1.5rem; color: #888;">“我骗过所有人，却没骗过自己的内心”</h4>
+				</div>
+				<div class="ser-bottom">
+					<div class="ser-grid">
+						<div class="col-md-8 ser-left">
+							<h5 style="font-size: 1.8rem; margin-bottom: 20px;">全名：尼古拉斯・皮比里厄斯・王尔德</h5>
+							<p style="font-size: 1.2rem; line-height: 2.2;">
+								身份：前街头骗子，动物城警察局警官，朱迪的黄金搭档<br><br>
+								童年创伤：10 岁时因 “狐狸天生狡猾” 的偏见，在童子军仪式上被强行套上嘴套，梦想破灭，从此用玩世不恭的外壳保护自己，不再相信 “任何人都能成就任何事”。<br><br>
+								性格特质：表面油滑、嘴硬心软，擅长用玩笑掩盖脆弱；逻辑缜密、观察力极强，总能在关键时刻帮朱迪破局；对朱迪的信任，是他重新相信 “美好” 的开始。<br><br>
+								在续作中的成长：从 “被动配合” 到 “主动担当”，他不再逃避自己的 “狐狸身份”，反而用这份 “狡黠” 保护爬行动物群体，成为打破偏见的关键力量。
+							</p>
+						</div>
+						<div class="col-md-4 ser-right">
+							<img src="images/bike.png" alt="尼克" style="width: 100%; border-radius: 10px;" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 第3屏：朱迪详情 -->
+	<div class="services" style="height: 100vh; padding-top: 5vh; background: #f8f8f8;">
+		<div class="container">
+			<div class="services-main">
+				<div class="ser-top">
+					<!-- 主标题：改为深棕色 #5D4037 -->
+					<h3 style="font-size: 3rem; margin-bottom: 30px; color: #5D4037;">朱迪 · 霍普斯</h3>
+					<!-- 副标题：改为暖橙色 #E64A19（替换原来的#888） -->
+					<h4 style="font-size: 1.5rem; color: #E64A19;">“我想证明的不是兔子能当警察，而是任何人都能做自己”</h4>
+				</div>
+				<div class="ser-bottom">
+					<div class="ser-grid">
+						<div class="col-md-4 ser-left wlta">
+							<img src="images/dotts.png" alt="朱迪" style="width: 100%; border-radius: 10px;" />
+						</div>
+						<div class="col-md-8 ser-right wltatext">
+							<!-- 子标题：改为墨绿色 #2E7D32 -->
+							<h5 style="font-size: 1.8rem; margin-bottom: 20px; color: #000000;">全名：朱迪思・拉维恩・霍普斯</h5>
+							<!-- 正文：改为深灰色 #424242（替换默认黑色，更柔和） -->
+							<p style="font-size: 1.2rem; line-height: 2.2; color: #424242;">
+								身份：动物城警察局首位兔子警官，尼克的搭档<br><br>
+								童年执念：从小渴望证明 “兔子也能当警察”，不顾父母反对来到动物城，却因体型和物种偏见被分配到贴罚单的岗位。<br><br>
+								性格特质：执着、勇敢、有正义感，但也带着 “小镇兔子” 的天真；前期对尼克有刻板印象，醒悟后主动道歉，展现了直面错误的勇气。<br><br>
+								在续作中的成长：从 “追求个人证明” 到 “守护群体公平”，她意识到自己的偏见也是不公的一部分，最终推动动物城修订族群平等法案。
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 第4屏：盖瑞详情 -->
+	<div class="services" style="height: 100vh; padding-top: 5vh;">
+		<div class="container">
+			<div class="services-main">
+				<div class="ser-top">
+					<h3 style="font-size: 3rem; margin-bottom: 30px;">盖瑞 · 斯奈克</h3>
+					<h4 style="font-size: 1.5rem; color: #888;">“百年冤屈，终有昭雪之日”</h4>
+				</div>
+				<div class="ser-bottom">
+					<div class="ser-grid">
+						<div class="col-md-8 ser-left">
+							<h5 style="font-size: 1.8rem; margin-bottom: 20px;">身份：爬行动物代表，气候墙发明者的曾孙</h5>
+							<p style="font-size: 1.2rem; line-height: 2.2;">
+								背景：家族世代被污蔑为 “动物城的威胁”，爬行动物被迫躲进地下世界，盖瑞隐忍多年，只为找到证据洗刷冤屈。<br><br>
+								性格特质：冷静、隐忍、有大局观，痛恨偏见但不崇尚报复；最初对朱迪和尼克充满戒备，后被二人的真诚打动，成为盟友。<br><br>
+								核心诉求：不是推翻动物城，而是让爬行动物重新获得合法身份，让家族的发明被正名。<br><br>
+								经典台词：“偏见的可怕，不在于它伤害了谁，而在于它让所有人都忘了真相。”
+							</p>
+						</div>
+						<div class="col-md-4 ser-right">
+							<img src="images/gairui.png" alt="盖瑞" style="width: 100%; border-radius: 10px;" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 第5屏：宝伯特详情 -->
+	<div class="services" style="height: 100vh; padding-top: 5vh; background: #f8f8f8;">
+		<div class="container">
+			<div class="services-main">
+				<div class="ser-top">
+					<h3 style="font-size: 3rem; margin-bottom: 30px;color: #5D4037;">宝伯特 · 林雪猁</h3>
+					<h4 style="font-size: 1.5rem; color: #888;">“我继承了家族的错，也该亲手纠正它”</h4>
+				</div>
+				<div class="ser-bottom">
+					<div class="ser-grid">
+						<div class="col-md-4 ser-left wlta">
+							<img src="images/bao.png" alt="宝伯特" style="width: 100%; border-radius: 10px;" />
+						</div>
+						<div class="col-md-8 ser-right wltatext">
+							<h5 style="font-size: 1.8rem; margin-bottom: 20px;color: #000000;">身份：林雪猁家族继承人，动物城气候管理局高管</h5>
+							<p style="font-size: 1.2rem; line-height: 2.2;color: #424242;">
+								背景：从小被灌输 “林雪猁家族是动物城的功臣”，直到发现先祖窃取气候墙发明、栽赃爬行动物的证据，陷入挣扎。<br><br>
+								性格特质：本性善良、有良知，面对家族利益和真相，最终选择站在正义一方；是打破 “家族偏见” 的关键人物。<br><br>
+								关键行动：偷偷将家族罪证交给朱迪和尼克，公开承认先祖的错误，推动爬行动物平反。<br><br>
+								经典台词：“荣耀如果建立在谎言之上，那它比耻辱更肮脏。”
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 第6屏：配角群像 -->
+	<div class="happy" style="height: 100vh; padding-top: 5vh;">
+		<div class="container">
+			<div class="happy-main">
+				<div class="happy-top">
+					<h3 style="font-size: 3rem; margin-bottom: 20px;">配角群像</h3>
+					<h4 style="font-size: 1.5rem;">小人物，大温暖</h4>
+				</div>
+				<div class="happy-bottom" style="margin-top: 50px;">
+					<div class="col-md-3" style="text-align: center;">
+						<img src="images/niu.jpg" alt="牛局长" style="width: 150px; border-radius: 50%;" />
+						<h5 style="font-size: 1.5rem; margin-top: 20px;">牛局长</h5>
+						<p style="font-size: 1.1rem; line-height: 1.8;">看似严厉，实则护短；从质疑朱迪到支持她的所有决定，是动物城警局的 “定海神针”。</p>
+					</div>
+					<div class="col-md-3" style="text-align: center;">
+						<img src="images/baoli.jpg" alt="闪电" style="width: 150px; border-radius: 50%;" />
+						<h5 style="font-size: 1.5rem; margin-top: 20px;">闪电</h5>
+						<p style="font-size: 1.1rem; line-height: 1.8;">树懒，车管所员工；续作中成为地下世界的 “信息枢纽”，慢节奏反而成了隐藏优势。</p>
+					</div>
+					<div class="col-md-3" style="text-align: center;">
+						<img src="images/xiaqiyang.jpg" alt="夏奇羊" style="width: 150px; border-radius: 50%;" />
+						<h5 style="font-size: 1.5rem; margin-top: 20px;">夏奇羊</h5>
+						<p style="font-size: 1.1rem; line-height: 1.8;">动物城巨星；用影响力呼吁族群平等，是推动爬行动物平反的 “公众力量”。</p>
+					</div>
+					<div class="col-md-3" style="text-align: center;">
+						<img src="images/fumu.jpg" alt="朱迪父母" style="width: 150px; border-radius: 50%;" />
+						<h5 style="font-size: 1.5rem; margin-top: 20px;">朱迪父母</h5>
+						<p style="font-size: 1.1rem; line-height: 1.8;">从反对女儿当警察，到理解她的追求；是 “平凡却伟大” 的家庭力量。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--footer start here-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<div class="footer-left">
+					<a href="#"><img src="images/ftr-logo.png" alt="" /></a>
+				</div>
+				<div class="footer-right">
+					<p>Copyright &copy; 2025 疯狂动物城主题站 All rights reserved.</p>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+			</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+	</div>
+</body>
+
+</html>
